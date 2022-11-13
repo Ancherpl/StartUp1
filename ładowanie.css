@@ -1,0 +1,232 @@
+@media screen and (min-width: 500px) {
+	body
+	{
+		background-color: black;
+	}
+	.srodek {
+		margin: 25% auto 0;
+		font-family: Georgia;
+		text-align: center;
+		width: 400px;
+		height: 100px;
+		font-size: 40px;
+		padding: 12px;
+		background-color: black;
+		color: brown;
+	}
+	
+	@keyframes literki {
+		0% {
+			font-size: 200px;
+		}
+		
+		90% {
+			font-size: 40px;
+			
+		}
+
+	}
+	.jeden
+	{
+		margin: 20px 0 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 2s ;
+		
+	}
+	.dwa
+	{
+		margin: 0 55px 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 2.5s ;
+		
+	}
+	.trzy
+	{
+		margin: 0 35px 0 -12px;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 3s ;
+		
+	}
+	.cztery
+	{
+		margin: 0 0 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 3.5s ;
+		
+	}
+	}
+
+
+@media screen and (max-width: 500px) {
+	.srodek {
+		margin: 50% auto 0;
+		font-family: Georgia;
+		text-align: center;
+		width: 200px;
+		height: 20px;
+		font-size: 40px;
+		background-color: black;
+		color: brown;
+	}
+	
+	@keyframes literki {
+		0% {
+			font-size: 100px;
+		}
+		
+		90% {
+			font-size: 40px;
+			
+		}
+		99% {
+			color: brown;
+		}
+		100%
+		{
+			color: black;
+		}
+	}
+	.jeden
+	{
+		margin: 0 5px 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 2s ;
+		
+	}
+	.dwa
+	{
+		margin: 0 5px 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 2.5s ;
+		
+	}
+	.trzy
+	{
+		margin: 0 auto 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 3s ;
+		
+	}
+	.cztery
+	{
+		margin: 0 auto 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 3.5s ;
+		
+	}
+	}
+	
+	
+	@media screen and (min-width: 1000px) {
+		body
+		{
+			background-color: black;
+		}
+		.srodek {
+			margin: 20% auto 0;
+			font-family: Georgia;
+			text-align: center;
+			width: 400px;
+			height: 100px;
+			font-size: 40px;
+			padding: 12px;
+			background-color: black;
+			color: brown;
+		}
+		
+		@keyframes literki {
+			0% {
+				font-size: 100px;
+			}
+			79%{
+			color: brown;
+			}
+
+			80%
+			{
+				font-size: 30px;
+				color: white;
+			}
+			90%
+			{
+				font-size: 40px;
+				color: white;
+			}
+		}
+		.jeden
+	{
+		margin: 20px 0 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 2s ;
+		
+	}
+	.dwa
+	{
+		margin: 0 55px 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 2.5s ;
+		
+	}
+	.trzy
+	{
+		margin: 0 35px 0 -12px;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 3s ;
+		
+	}
+	.cztery
+	{
+		margin: 0 0 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		display:flex;
+		display: inline-block;
+		animation: literki 3.5s ;
+		
+	}
+		}
