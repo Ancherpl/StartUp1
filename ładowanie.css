@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 	body
 	{
 		background-color: black;
@@ -73,7 +73,7 @@
 	}
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	.srodek {
 		margin: 50% auto 0;
 		font-family: Georgia;
@@ -152,7 +152,7 @@
 	@media screen and (min-width: 1000px) {
 		body
 		{
-			background-color: black;
+			background-color: linear-gradient(black, #A56767);
 		}
 		.srodek {
 			margin: 20% auto 0;
@@ -166,7 +166,7 @@
 			color: brown;
 		}
 		
-		@keyframes literki {
+		@keyframes normalnanazwa {
 			0% {
 				font-size: 100px;
 			}
@@ -193,7 +193,7 @@
 		border-radius: 100%;
 		display:flex;
 		display: inline-block;
-		animation: literki 2.1s ;
+		animation: normalnanazwa 2.1s ;
 		
 	}
 	.dwa
@@ -204,7 +204,7 @@
 		border-radius: 100%;
 		display:flex;
 		display: inline-block;
-		animation: literki 2.5s ;
+		animation: normalnanazwa 2.7s ;
 		
 	}
 	.trzy
@@ -215,7 +215,7 @@
 		border-radius: 100%;
 		display:flex;
 		display: inline-block;
-		animation: literki 3s ;
+		animation: normalnanazwa 3s ;
 		
 	}
 	.cztery
@@ -226,7 +226,7 @@
 		border-radius: 100%;
 		display:flex;
 		display: inline-block;
-		animation: literki 3.5s ;
+		animation: normalnanazwa 3.5s ;
 		
 	}
 		}
